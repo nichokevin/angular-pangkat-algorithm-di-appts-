@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>
+  <input [(ngModel)]=bil1 type="text" placeholder="Bilangan1">
+  <input [(ngModel)]=bil2 type="text" placeholder="Bilangan1"> &nbsp;
+  <button (click)=check()>JALANKAN</button> &nbsp;
+  {{hasil}}
+  <br/>
+  <br/>
+</p>
+
+<div *ngFor="let isi of pola">
+    {{isi}}
+  </div>
